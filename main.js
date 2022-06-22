@@ -35,7 +35,7 @@ console.log(B) //outpot: 123
 
 const C;
 C = 123;
-*/
+
 //선언 후 할달
 let hi;
 hi = "holle";
@@ -54,3 +54,18 @@ const BIRTYDAY = "2020. 1. 1"
 
 console.log(age);
 console.log(BIRTYDAY);
+*/
+
+//using var
+console.log(name_1);
+var name_1 = "john";
+console.log(name_1);
+
+//hosting
+var name_2;
+console.log(name_2);
+name_2 = "john";
+console.log(name_2);
+
+console.log(name_3);
+let name_3 = "minsu";
