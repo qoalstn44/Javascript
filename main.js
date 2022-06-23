@@ -54,7 +54,6 @@ const BIRTYDAY = "2020. 1. 1"
 
 console.log(age);
 console.log(BIRTYDAY);
-*/
 
 //using var
 console.log(name_1);
@@ -69,3 +68,22 @@ console.log(name_2);
 
 console.log(name_3);
 let name_3 = "minsu";
+
+
+let str = 'hello, wordl!';
+console.log(typeof str);
+
+console.log(typeof undefined);
+console.log(typeof 123);
+console.log(typeof 456n);
+console.log(typeof 123.123);
+console.log(typeof true);
+console.log(typeof "hello");
+console.log(typeof Symbol("id"));
+console.log(typeof Math);
+console.log(typeof null);
+console.log(typeof console.log);
+
+*/
+const null_check = null; //output: object <- 하우 버전 호완성으로 object 표기
+console.log(null_check === null);//output: true
