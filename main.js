@@ -87,7 +87,7 @@ console.log(typeof console.log);
 
 const null_check = null; //output: object <- 하우 버전 호완성으로 object 표기
 console.log(null_check === null);//output: true
-*/
+
 
 let mum_1 = 123.0;
 let mum_2 = 123.456;
@@ -96,3 +96,14 @@ console.log(mum_1 - mum_2);
 console.log((mum_1 - mum_2) .toFixed(3));
 console.log(num_3);
 console.log(num_1 / "hello" ); 
+*/
+
+let str_1 = "hello";
+let str_2 = "hello"
+
+let num = 3;
+let str_3 = `hello_${num}`;
+
+console.log(str_1);
+console.log(str_2);
+console.log(str_3);
