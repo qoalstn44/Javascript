@@ -96,7 +96,7 @@ console.log(mum_1 - mum_2);
 console.log((mum_1 - mum_2) .toFixed(3));
 console.log(num_3);
 console.log(num_1 / "hello" ); 
-*/
+
 
 let str_1 = "hello";
 let str_2 = "hello"
@@ -107,3 +107,23 @@ let str_3 = `hello_${num}`;
 console.log(str_1);
 console.log(str_2);
 console.log(str_3);
+
+*/
+
+let result = 100;
+
+let num = 4;
+
+let count = 0;
+
+
+while (result <= 22) {
+
+    result = result - num;
+
+    count = count + 1;
+
+}
+
+
+console.log(count);
