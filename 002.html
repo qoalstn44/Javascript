@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위니브 스토어</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        const root = doument.getElementBytld('root')
+
+        async function getProdictData(){
+            const response = await fetch('http://test/api.wemiv.co.kr/mall')
+            const product = await response.json()
+            return product
+        }
+
+        getProdictData().then(product => {
+            console.log(product)
+
+            const minElement = docymet.createElement('main')
+
+            mainElement.classList.add('product')
+            consoLe.log(mainElement)
+        })
+    </script>
+    
+</body>
+</html>
